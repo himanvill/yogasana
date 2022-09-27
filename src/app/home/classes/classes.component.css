@@ -1,0 +1,49 @@
+.description{
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.d-head{
+    font-size: xxx-large;
+    font-weight: 800;
+}
+.d-para{
+    margin-top:3%;
+    font-size: large;
+}
+.classes1{
+    /* margin-top:5%; */
+    text-align: center;
+}
+.yoga_name{
+    margin-top:2%;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.yoga_desc{
+    
+    color: #b8c3d6;
+    font-weight: 800;
+    font-size: larger;
+}
+.classes2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around
+}
+.read_more{
+    margin-top: 4%;
+    text-align: center;
+}
+.read_btn{
+    font-size: larger;
+    width: 23vw;
+    height: 9vh;
+    border-radius: 7vh;
+    background-color: #001935;
+    color: whitesmoke;
+    border: 0px;
+}
+.read_btn:hover{
+    background-color: orange;
+}

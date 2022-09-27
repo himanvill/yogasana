@@ -1,0 +1,45 @@
+.inner{
+    background-color: 
+    #001935;
+   padding: 10% 15% 10% 5%;
+}
+.imgDiv{
+    margin-left: -12px;
+}
+.innerContainer{
+   
+    margin: 5% 5%;
+    padding: 0%;
+}
+.head{
+    color: whitesmoke;
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-bottom: 4%;
+}
+.para{
+    color: whitesmoke;
+    font-size: medium;
+    margin-bottom: 6%;
+}
+.line{
+  
+    color: whitesmoke;
+  border-width: 2px;
+  margin-bottom: 8%;
+    
+}
+.read_btn{
+    font-size: larger;
+    font-weight: 500px;
+    width: 13vw;
+    height: 7vh;
+    /* border-radius: 7vh; */
+    background-color: orange;
+    color: whitesmoke;
+    border: 0px;
+}
+.read_btn:hover{
+    background-color: whitesmoke;
+    color: orange;
+}

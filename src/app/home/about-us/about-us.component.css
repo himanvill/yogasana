@@ -1,0 +1,33 @@
+.description{
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding: 0% 20%;
+}
+.d-head{
+    font-size: xxx-large;
+    font-weight: 800;
+}
+.d-para{
+    margin-top:3%;
+    font-size: large;
+}
+.aboutUsImg{
+   text-align: center;
+}
+.read_more{
+    margin-top: 4%;
+    text-align: center;
+}
+.read_btn{
+    font-size: larger;
+    width: 23vw;
+    height: 9vh;
+    border-radius: 7vh;
+    background-color: #001935;
+    color: whitesmoke;
+    border: 0px;
+}
+.read_btn:hover{
+    background-color: orange;
+}
