@@ -1,15 +1,23 @@
-<div class="background">
+<div [ngClass]="bgClass">
   <div class="header row">
     <div class="logoSide col-md-5">
       <img class="lo_be" src="../../assets/img/logo.png" />
     </div>
     <div class="navList col-md-6">
-      <div class="tab">HOME</div>
-      <div class="tab">ABOUT</div>
-      <div class="tab">CLASSES</div>
-      <div class="tab">YOGA</div>
-      <div class="tab">PRICING</div>
-      <div class="tab">CONTACT US</div>
+      <div routerLink="/home" routerLinkActive="tab" class="menu">HOME</div>
+      <div routerLink="/about-us" routerLinkActive="tab" class="menu">
+        ABOUT
+      </div>
+      <div routerLink="/classes" routerLinkActive="tab" class="menu">
+        CLASSES
+      </div>
+      <div routerLink="/yoga" routerLinkActive="tab" class="menu">YOGA</div>
+      <div routerLink="/pricing" routerLinkActive="tab" class="menu">
+        PRICING
+      </div>
+      <div routerLink="/contact-us" routerLinkActive="tab" class="menu">
+        CONTACT US
+      </div>
     </div>
   </div>
 </div>
