@@ -3,6 +3,7 @@
     margin-top:5%;
     margin-bottom:5%;
     padding: 0% 20%;
+  
 }
 .d-head{
     font-size: xxx-large;
@@ -31,4 +32,10 @@
 .read_btn:hover{
     background-color: orange;
     transition: all 300ms ease-in-out;
+}
+/* .background{
+    display: none;
+} */
+.no-home{
+    display: none;  
 }

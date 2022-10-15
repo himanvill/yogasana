@@ -8,11 +8,12 @@ import { YogaComponent } from './home/yoga/yoga.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'classes', component: ClassesComponent },
   { path: 'yoga', component: YogaComponent },
   { path: 'pricing', component: PricingComponent },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({

@@ -8,6 +8,7 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   bgClass: string = 'background';
+  component: string = 'None';
   constructor(private router: Router) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
@@ -16,7 +17,7 @@ export class HeaderComponent implements OnInit {
         console.log(this.bgClass);
         if (eventUrl.split('/')[1] != 'home') {
           this.bgClass = 'no-home';
-          console.log(this.bgClass);
+          this.component = eventUrl.split('/')[1].toUpperCase();
         } else {
           this.bgClass = 'background';
         }
