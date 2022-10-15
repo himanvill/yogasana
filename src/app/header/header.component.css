@@ -1,6 +1,6 @@
 .background{
     height: 100vh;
-    background-image: url("../../assets/img/banner2.jpg");
+    background-image: url("../../assets/banner2.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
@@ -10,7 +10,7 @@
     /* background-image: url("../../assets/img/yoga_mo1.png"); */
 }
 .logoSide{
-    background-image: url("../../assets/img/lo_be1.png");
+    background-image: url("../../assets/lo_be1.png");
     background-repeat: no-repeat;
     
     height: 21vh;
