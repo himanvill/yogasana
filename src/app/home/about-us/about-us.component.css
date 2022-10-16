@@ -31,7 +31,7 @@
 }
 .read_btn:hover{
     background-color: orange;
-    transition: all 300ms ease-in-out;
+    transition:1s ease-out;
 }
 /* .background{
     display: none;

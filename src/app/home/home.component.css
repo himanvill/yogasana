@@ -45,4 +45,5 @@
 .read_btn:hover{
     background-color: whitesmoke;
     color: orange;
+    transition:1s ease-out;
 }

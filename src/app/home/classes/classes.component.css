@@ -46,6 +46,7 @@
 }
 .read_btn:hover{
     background-color: orange;
+    transition:1s ease-out;
 }
 .no-home{
     display: none;  

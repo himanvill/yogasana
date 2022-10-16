@@ -51,7 +51,7 @@
 .menu:hover{
     border-radius: 12%;
     background-color: #001935;
- transition: all 300ms ease-out;   
+ transition: 0.9s;   
 }
 .description{
     display: flex;
