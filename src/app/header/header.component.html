@@ -3,7 +3,13 @@
     <div class="logoSide col-md-5">
       <img class="lo_be" src="assets/logo.png" />
     </div>
-    <div class="navList col-md-6">
+    <img
+      (click)="onMenuClick()"
+      class="menuIcon"
+      src="assets/menu_icon.png"
+      alt=""
+    />
+    <div [ngClass]="mobile ? 'navList' : 'hide'" class="navList col-md-6">
       <div routerLink="/home" routerLinkActive="tab" class="menu">HOME</div>
       <div routerLink="/about-us" routerLinkActive="tab" class="menu">
         ABOUT

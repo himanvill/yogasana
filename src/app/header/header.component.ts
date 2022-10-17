@@ -9,6 +9,7 @@ import { NavigationEnd, Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
   bgClass: string = 'background';
   component: string = 'None';
+  mobile: boolean = false;
   constructor(private router: Router) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
@@ -27,4 +28,8 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  onMenuClick() {
+    this.mobile = this.mobile ? false : true;
+  }
 }
