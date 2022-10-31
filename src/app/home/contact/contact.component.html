@@ -1,1 +1,43 @@
-<p>contact works!</p>
+<div class="containerDiv">
+  <h1 [ngClass]="bgClass" class="head">Contact Us</h1>
+  <div class="row detailBox">
+    <div class="col-md-6 detail">
+      <form class="form">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control shadow p-3 mb-3 bg-white rounded"
+            id="formGroupExampleInput"
+            placeholder="Name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control shadow p-3 mb-3 bg-white rounded"
+            id="formGroupExampleInput2"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control shadow p-3 mb-3 bg-white rounded"
+            id="formGroupExampleInput2"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            type="text"
+            class="form-control shadow p-2 mb-3 bg-white rounded"
+            id="formGroupExampleInput2"
+            placeholder="Message"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
+      <button class="read_btn m-4">Send</button>
+    </div>
+  </div>
+</div>

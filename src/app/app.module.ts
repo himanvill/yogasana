@@ -12,6 +12,7 @@ import { AboutUsComponent } from './home/about-us/about-us.component';
 import { YogaComponent } from './home/yoga/yoga.component';
 import { PricingComponent } from './home/pricing/pricing.component';
 import { ContactComponent } from './home/contact/contact.component';
+import { SubscribeComponent } from './footer/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from './home/contact/contact.component';
     AboutUsComponent,
     YogaComponent,
     PricingComponent,
-    ContactComponent
+    ContactComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
