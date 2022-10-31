@@ -15,7 +15,7 @@
 .logoSide{
     background-image: url("../../assets/lo_be1.png");
     background-repeat: no-repeat;
-    
+    background-size: contain;
     height: 21vh;
     width: 45vw;
 }

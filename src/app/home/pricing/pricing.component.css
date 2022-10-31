@@ -1,0 +1,87 @@
+.read_more {
+  margin-top: 4%;
+  text-align: center;
+}
+.read_btn {
+  font-size: larger;
+  width: 23vw;
+  height: 9vh;
+  border-radius: 7vh;
+  background-color: #001935;
+  color: whitesmoke;
+  border: 0px;
+}
+.read_btn:hover {
+  background-color: orange;
+  transition: 1s ease-out;
+}
+/* .background{
+    display: none;
+} */
+.no-home {
+  display: none;
+}
+.d-head {
+  font-size: xxx-large;
+  font-weight: 800;
+}
+.d-para {
+  margin-top: 3%;
+  font-size: large;
+}
+.price {
+  padding: 4%;
+}
+.price1 {
+  padding: 4%;
+  text-align: center;
+  border-right: 5px solid #cfb5fa ;
+}
+.price2 {
+  padding: 4%;
+  text-align: center;
+  border-right: 5px solid #cfb5fa ;
+}
+.price3 {
+  padding: 4%;
+  text-align: center;
+}
+.read_btn{
+    font-size: larger;
+    font-weight: 500px;
+    width: 13vw;
+    height: 7vh;
+    /* border-radius: 7vh; */
+    background-color: orange;
+    color: whitesmoke;
+    border: 0px;
+    border-radius:0px ;
+}
+.read_btn:hover{
+    background-color: whitesmoke;
+    color: orange;
+    transition:1s ease-out;
+}
+.starter{
+font-weight: 600;
+}
+.dollar{
+font-size:10vh;
+font-weight: 800;
+margin-top: 4%;
+
+}
+.priceD{
+    font-size: large;
+    padding:4%;
+    font-weight: 500;
+    margin-top: 22%;
+    margin-bottom: 10%
+}
+.dollarSymbol{
+    font-weight: 800;
+    color: #f4a111;
+    border-bottom: 5px solid #6a16f3;
+    
+   
+}
