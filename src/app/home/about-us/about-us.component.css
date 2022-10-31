@@ -28,6 +28,7 @@
     background-color: #001935;
     color: whitesmoke;
     border: 0px;
+    margin-bottom: 5%;
 }
 .read_btn:hover{
     background-color: orange;

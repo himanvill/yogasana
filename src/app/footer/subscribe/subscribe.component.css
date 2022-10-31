@@ -1,0 +1,64 @@
+.container{
+    text-align: center;
+}
+.head{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+.lineTag{
+    margin: auto;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2px;
+    
+    background-color: 
+    #ffffff;
+}
+input {
+   
+    outline: none;
+    width: 41vw;
+    height: 9vh;
+    border: 0px;
+    border-radius:0px ;
+    padding: 2%;
+}
+ .enterEmail{
+    width: 54%;
+    position: relative;
+    margin: auto;
+ }
+.read_btn {
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    z-index: 2;
+    border: none;
+   
+    height: 30px;
+    cursor: pointer;
+    transform: translateX(2px);
+    font-size: larger;
+    font-weight: 500px;
+    width: 11vw;
+    height: 5vh;
+    /* border-radius: 7vh; */
+    background-color: #001935;
+    color: whitesmoke;
+    border: 0px;
+    border-radius:0px ;
+    
+}
+.read_btn:hover{
+    background-color: whitesmoke;
+    color: orange;
+    transition:1s ease-out;
+}
+::placeholder{
+    color:
+    #8086ac!important;
+    font-size: larger;
+
+}
