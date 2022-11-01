@@ -13,6 +13,8 @@ import { YogaComponent } from './home/yoga/yoga.component';
 import { PricingComponent } from './home/pricing/pricing.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { SubscribeComponent } from './footer/subscribe/subscribe.component';
+import { LinksComponent } from './footer/links/links.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,14 @@ import { SubscribeComponent } from './footer/subscribe/subscribe.component';
     PricingComponent,
     ContactComponent,
     SubscribeComponent,
+    LinksComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

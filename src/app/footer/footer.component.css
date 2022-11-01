@@ -1,5 +1,14 @@
 .containerDiv{
     background-color: #001935;
     color: whitesmoke;
-    padding: 6%;
+    padding: 6% 6% 0% 6%;
+    
+}
+.copyright{
+    background-color: #001935;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 1px solid #000000 ;
+    border-radius: 0px;
+    box-shadow: 2px  5px 5px lightblue inset;
 }

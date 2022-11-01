@@ -1,0 +1,42 @@
+.container{
+    text-align: start;
+}
+ul{
+    list-style: none;
+    text-align: start;
+   
+}
+li{
+    margin: 3%;
+    font-size: large;
+    
+}
+li:hover{
+    color: orange;
+    transition: 0.9s;   
+    font-size: x-large;
+}
+.quick{
+    padding: 4% 2%;
+}
+.middle{
+    padding: 4% 2%;
+}
+.top{
+    padding-right: 15%;
+    text-align: start;
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 150%;
+    
+}
+.endLink{
+    align-items: center;
+  margin-bottom: 4%;
+    font-size: large;
+    word-spacing: 5px;
+    line-height: 150%;
+}
+.icon{
+margin-right: 5%;
+}
