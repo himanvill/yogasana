@@ -14,8 +14,13 @@ import { ContactComponent } from './home/contact/contact.component';
 import { SubscribeComponent } from './footer/subscribe/subscribe.component';
 import { LinksComponent } from './footer/links/links.component';
 import { MatIconModule } from '@angular/material/icon';
+<<<<<<< HEAD
 import { FooterComponent } from './footer/footer.component';
 
+=======
+import { ReviewComponent } from './home/review/review.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+>>>>>>> review
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +34,14 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     SubscribeComponent,
     LinksComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
