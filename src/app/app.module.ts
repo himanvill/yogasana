@@ -15,7 +15,8 @@ import { ContactComponent } from './home/contact/contact.component';
 import { SubscribeComponent } from './footer/subscribe/subscribe.component';
 import { LinksComponent } from './footer/links/links.component';
 import { MatIconModule } from '@angular/material/icon';
-
+import { ReviewComponent } from './home/review/review.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +30,14 @@ import { MatIconModule } from '@angular/material/icon';
     ContactComponent,
     SubscribeComponent,
     LinksComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
